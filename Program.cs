@@ -51,17 +51,47 @@ namespace HelloWorld
             //     System.Console.WriteLine("The number could not be converted");
             // }
             
-            try
-            {
-                string str = "true";
-                bool b = Convert.ToBoolean(str);
-                System.Console.WriteLine(b);
-            }
-            catch (System.Exception)
-            {
+            // try
+            // {
+            //     string str = "true";
+            //     bool b = Convert.ToBoolean(str);
+            //     System.Console.WriteLine(b);
+            // }
+            // catch (System.Exception)
+            // {
                 
-                System.Console.WriteLine("The number could not be converted");
-            }
+            //     System.Console.WriteLine("The number could not be converted");
+            // }
+            
+            // var a = 1;
+            // var b = 2;
+            // var c = 3;
+            // System.Console.WriteLine(a + b * c);
+
+            var a = 1;
+            var b = 2;
+            var c = 3;
+            System.Console.WriteLine(!(a > b && b > c));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
