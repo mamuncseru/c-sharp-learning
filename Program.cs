@@ -9,14 +9,14 @@ namespace HelloWorld
         static void Main(string[] args)
         {
 
-            var john = new Person();
-            john.FirstName = "John";
-            john.LastName = "Smith";
-            john.Introduce();
+            // var john = new Person();
+            // john.FirstName = "John";
+            // john.LastName = "Smith";
+            // john.Introduce();
 
-            Calculator calculator = new Calculator();
-            var result = calculator.Add(1, 2);
-            System.Console.WriteLine(result);
+            // Calculator calculator = new Calculator();
+            // var result = calculator.Add(1, 2);
+            // System.Console.WriteLine(result);
             
             // byte number = 2;
             // int count = 10;
@@ -85,7 +85,24 @@ namespace HelloWorld
             // var c = 3;
             // System.Console.WriteLine(!(a > b && b > c));
 
+            // int[] numbers = new int[3];
+            var numbers = new int[3];
+            numbers[0] = 1;
 
+            System.Console.WriteLine(numbers[0]);
+            System.Console.WriteLine(numbers[1]);
+            System.Console.WriteLine(numbers[2]);
+
+            var flags = new bool[3];
+            flags[0] = true;
+            
+            System.Console.WriteLine(flags[0]);
+            System.Console.WriteLine(flags[1]);
+            System.Console.WriteLine(flags[2]);
+
+
+            var names = new string[3] {"Jack", "John", "Mary" };
+            System.Console.WriteLine(names[0]);
         }
     }
 }
