@@ -1,11 +1,23 @@
 ﻿using System;
 
+using app.Math;
+
 // // Hello World! program
 namespace HelloWorld
 {
     class Program {         
         static void Main(string[] args)
         {
+
+            var john = new Person();
+            john.FirstName = "John";
+            john.LastName = "Smith";
+            john.Introduce();
+
+            Calculator calculator = new Calculator();
+            var result = calculator.Add(1, 2);
+            System.Console.WriteLine(result);
+            
             // byte number = 2;
             // int count = 10;
             // float totalPrice = 20.95f;
@@ -68,28 +80,10 @@ namespace HelloWorld
             // var c = 3;
             // System.Console.WriteLine(a + b * c);
 
-            var a = 1;
-            var b = 2;
-            var c = 3;
-            System.Console.WriteLine(!(a > b && b > c));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            // var a = 1;
+            // var b = 2;
+            // var c = 3;
+            // System.Console.WriteLine(!(a > b && b > c));
 
 
         }
